@@ -3,7 +3,7 @@ import java.util.Scanner;
  *   Clase de utilidades
  *   Incluye métodos estáticos
  *   
- *   @author - 
+ *   @author - Eneko Seminario
  */
 public class Utilidades
 {
@@ -29,8 +29,12 @@ public class Utilidades
      * (usa bucles while)
      */
     public static int contarCifras(int n) {
-         
-        return 0;
+        int cifras = 0;
+        while (n != 0){
+            n = n / 10;
+            cifras++;
+        } 
+        return cifras;
 
     }
 
