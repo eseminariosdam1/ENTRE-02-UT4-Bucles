@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IUTexto
+comment0.text=\r\n\ Modela\ el\ interfaz\ para\ interactuar\ con\ el\ usuario\r\n\ @author\ -\ Eneko\ Seminario\r\n
+comment1.params=calculadora\ pintor
+comment1.target=IUTexto(CalculadoraOctal,\ PintorFiguras)
+comment1.text=\r\n\ Constructor\ \ \r\n
+comment2.params=
+comment2.target=void\ iniciar()
+comment2.text=\r\n\ Controla\ la\ l\u00F3gica\ de\ la\ aplicaci\u00F3n\r\n
+comment3.params=
+comment3.target=void\ hacerSumasOctales()
+comment3.text=\r\n\ \ -\ borrar\ la\ pantalla\r\n\ \ -\ pedir\ al\ usuario\ un\ par\ de\ n\u00FAmeros\r\n\ \ -\ si\ los\ n\u00FAmeros\ no\ est\u00E1n\ en\ octal\ mostrar\ un\ mensaje\r\n\ \ -\ si\ los\ n\u00FAmeros\ no\ tienen\ el\ mismo\ n\u00FAmero\ de\ cifras\ mostrar\ un\ mensaje\r\n\ \ -\ si\ son\ correctos\ calcular\ su\ suma\ octal\ y\ mostrar\ el\ resultado\ en\ pantalla\r\n\ \ -\ los\ pasos\ anteriores\ se\ repiten\ mientras\ el\ usuario\ quiera\ (pulsa\ 'S'\ o\ 's')\r\n\ \ \r\n
+comment4.params=
+comment4.target=void\ dibujarFiguras()
+comment4.text=\r\n\ \ Pide\ al\ usuario\ un\ valor\ de\ altura,\ \r\n\ \ valida\ que\ sea\ correcto\ (un\ valor\ entre\ 1\ y\ 10)\r\n\ \ y\ muestra\ la\ figura\ en\ pantalla\r\n
+numComments=5

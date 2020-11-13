@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Utilidades
+comment0.text=\r\n\ \ \ Clase\ de\ utilidades\r\n\ \ \ Incluye\ m\u00E9todos\ est\u00E1ticos\r\n\ \ \ \r\n\ \ \ @author\ -\ Eneko\ Seminario\r\n
+comment1.params=n
+comment1.target=boolean\ estaEnOctal(int)
+comment1.text=\r\n\ Dado\ un\ n\u00FAmero\ n\ (asumimos\ positivo)\r\n\ devueve\ true\ si\ est\u00E1\ en\ octal\ false\ en\ otro\ caso\r\n\ Un\ n\u00BA\ est\u00E1\ en\ octal\ si\ cada\ una\ de\ sus\ cifras\r\n\ es\ un\ valor\ entre\ 0\ y\ 7\r\n\ \r\n\ (usa\ bucles\ while)\r\n
+comment2.params=n
+comment2.target=int\ contarCifras(int)
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PintorFiguras
+comment0.text=\r\n\ \ Clase\ que\ dibuja\ una\ figura\ \r\n\ \r\n\ @author\ -\ \r\n\ \ \r\n
+comment1.params=altura
+comment1.target=void\ dibujarFigura(int)
+comment1.text=\r\n\ Dibuja\ una\ figura\ (ver\ enunciado)\ de\ altura\r\n\ indicada\ (se\ asume\ la\ altura\ un\ valor\ correcto)\r\n\ \r\n\ (usa\ bucles\ for)\r\n
+comment2.params=caracter\ n
+comment2.target=void\ escribirEspacios(char,\ int)
+comment2.text=\r\n\ M\u00E9todo\ privado\ de\ ayuda\ que\ escribe\ n\ espacios\ en\ la\ misma\ l\u00EDnea\r\n
+numComments=3

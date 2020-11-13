@@ -18,34 +18,49 @@ public class Utilidades
      */
     public static boolean estaEnOctal(int n) {
         boolean esOctal = false;
+        int cifra;
+        int numero = n;
         while(n != 0){
-          if(n % 10 >= 0 && n % 10 <= 7 ){
+          if(n % 10 >= 0 && n % 10 < 7 ){
             esOctal = true;
           }else{
             return esOctal;
-          }
         }
-         
-        return esOctal;
+          n = n / 10;
+          return true;
 
     }
+    return esOctal;
+}
 
-    /**
-     * Dado un número n (asumimos positivo)
-     * devuelve la cantidad de cifras que tiene
-     * 
-     * (usa bucles while)
-     */
+
+    
     public static int contarCifras(int n) {
+        int cifras = 0;
         int contadorCifras = 0;
         while (n != 0){
             n = n / 10;
+            cifras++;
             contadorCifras++;
         } 
-        return contadorCifras;
-
+        return cifras;
     }
+}
+   
+        
+    
+
+  
+   
+    
+       
+    
+       
+    
+
+
+
+
 
    
     
-}

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Modela el interfaz para interactuar con el usuario
- * @author - 
+ * @author - Eneko Seminario
  */
 public class IUTexto
 {
@@ -38,14 +38,26 @@ public class IUTexto
      *  - los pasos anteriores se repiten mientras el usuario quiera (pulsa 'S' o 's')
      *  
      */
-    private void hacerSumasOctales()
-    {
-        
-        
+    private void hacerSumasOctales() {
+        char inserteOpcion = 'S';
+        while(inserteOpcion == 'S'|| inserteOpcion == 's' ){
+        System.out.print('\u000C');
+        System.out.println("Por favor, pulse el número1: ");
+        int n1 = this.teclado.nextInt();
+        System.out.println("Por favor, pulse el número 2: ");
+        int n2 = this.teclado.nextInt();
+        if(Utilidades.estaEnOctal(n1) && Utilidades.estaEnOctal(n2) && Utilidades.contarCifras(n1) == Utilidades.contarCifras(n2)){
+            System.out.println("-------------------------------------------------");
+            System.out.printf("%20d\n" , n1);
+            System.out.printf("%20d\n" , n2);
+            System.out.printf("%10d %10s", "Suma octal: " ,this.calculadora.sumarEnOctal(n1, n2));
+        }else{
+            System.out.println ("Los numeros introducidos no tienen el mismo numero de cifras o alguno de los numeros no esta en octal, por favor introduce unos numeros válidos");
+        }
+    } 
+}
 
-    }
-
-    /**
+     /**
      *  Pide al usuario un valor de altura, 
      *  valida que sea correcto (un valor entre 1 y 10)
      *  y muestra la figura en pantalla
@@ -53,7 +65,25 @@ public class IUTexto
 
     private void dibujarFiguras()
     {
-        
+        System.out.println("Ahora se dibujara una figura");
+        int altura = 0;
+        System.out.print(" Altura de la figura? (1-10)");
+        altura = this.teclado.nextInt();
+        if(altura <= 10 && altura >=1){
+        pintor.dibujarFigura(altura);
+    }else{
+        System.out.println("Error, Altura de la figura? (1-10)");
+    }
     }
 
 }
+
+
+
+ 
+
+
+
+
+
+   

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CalculadoraOctal
+comment0.text=\r\n\ \ Representa\ a\ una\ calcualdora\ que\ hace\ sumas\ octales\r\n\ \r\n\ @author\ -\ Eneko\ Semiario\r\n\ \r\n
+comment1.params=n1\ n2
+comment1.target=int\ sumarEnOctal(int,\ int)
+comment1.text=\r\n\ sumar\ dos\ n\u00BAs\ supuestos\ en\ base\ 8\ y\ con\ el\ mismo\r\n\ n\u00BA\ de\ cifras\r\n\ Asumimos\ positivos\r\n
+numComments=2
